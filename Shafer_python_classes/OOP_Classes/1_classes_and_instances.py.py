@@ -1,4 +1,4 @@
-# '''creating classes'''
+  # '''creating classes'''
 
 
 # class Employee:
@@ -20,8 +20,20 @@
 # print(Employee.fullname(emp_1))
 # print(emp_2.fullname())
 
+# Note that we can create our instances without the init method, for example:
 
+# emp_1.first = 'Corey'
+# emp_1.last = 'Shafer'
+# emp_1.email = 'Corey.Shafer@company.com'
+# emp_1.pay = 50000
+    
+  
+# emp_2.first = 'Test'
+# emp_2.last = 'User'
+# emp_2.email = ' Test.user@company.com'
+# emp_2.pay = 60000
 
+ 
 
 # print(emp_1.last)
 # print(emp_1.email)
@@ -144,6 +156,18 @@ print(emp_2.fullname())
 # emp_2 = Employee('Test', 'User',  60000,)
 
 # print(emp_1.d) 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
