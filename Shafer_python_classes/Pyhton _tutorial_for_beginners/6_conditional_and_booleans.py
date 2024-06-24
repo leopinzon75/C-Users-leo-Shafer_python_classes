@@ -12,17 +12,22 @@
 #     print('conditional was true')# 'conditional was true
 
 # if False:
-#     print('conditional was true')# No output
- 
+#     print('conditional was true')
 
+# No output
+ 
+-----------------------------------------------------------------------------------------
 
 # language = 'Python'
 
 # if language == 'Python':
 #     print('language is Python')# language is Python
 # else:
-#     print('no match')# No output
+#     print('no match')
 
+# No output
+
+-----------------------------------------------------------------------------------------
 
 # language = 'Java'
 
@@ -31,7 +36,9 @@
 # else:
 #     print('no match')
 
+# no match
 
+-----------------------------------------------------------------------------------------
 # language = 'Java'
 
 # if language == 'Python':
@@ -42,6 +49,12 @@
 #     print('languaje is JavaScript')
 # else:
 #     print('no match')
+
+# = languaje is Java
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
 
 # #and
 # #or
@@ -55,6 +68,9 @@
 # else:
 #     print('Bad creds')
 
+# = admin Page
+-----------------------------------------------------------------------------------------
+
 
 # user = 'Admin'
 # logged_in = False
@@ -64,6 +80,8 @@
 # else:
 #     print('Bad Creds')# Bad Creds
 
+# = Bad Creds
+-----------------------------------------------------------------------------------------
 
 # user = 'Admin'
 # logged_in = False
@@ -73,6 +91,8 @@
 # else:
 #     print('Bad Creds')
 
+# = admin Page
+-----------------------------------------------------------------------------------------
 
 # user = 'Admin'
 # logged_in = False
@@ -82,6 +102,10 @@
 # else:
 #     print('welcome')
 
+#= Please Log in
+
+
+-----------------------------------------------------------------------------------------
 # Object identity : is.
 # Tests if two objects have the same id in memory
 
@@ -89,7 +113,7 @@
 # b = [1,2,3,]
 # print(id(a))# 2563423218496
 # print(id(b))# 2563423171904
-# print(a is b)# False
+# print(a is b) # False
 
 
  
@@ -101,6 +125,9 @@
 # print(a==b)# True
 # print(id(a) == id(b))#True # This is the same of (a is b)
 
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 
 # To determine what Python evaluates to True and False,
 # it's easier to show everything that evaluates to 'False', then everything else 
@@ -120,15 +147,21 @@
 # else:
 #     print('Evaluated to False')# Evaluated to False
 
+#= Evaluated to False
+
+-----------------------------------------------------------------------------------------
+
 
 # condition = None
 
 # if condition:
 #     print('Evaluated to True')
 # else:
-#     print('Evaluated to False')# Evaluated to False
+#     print('Evaluated to False')
 
+# Evaluated to False
 
+-----------------------------------------------------------------------------------------
 # condition = 0
 
 # if condition:
@@ -136,7 +169,7 @@
 # else:
 #     print('Evaluated to False')# Evaluated to False
 
-
+-----------------------------------------------------------------------------------------
 # condition = 10
 
 # if condition:
@@ -144,7 +177,7 @@
 # else:
 # #     print('Evaluated to False')
 
-
+-----------------------------------------------------------------------------------------
 # condition = ()
 
 # if condition:
@@ -152,7 +185,7 @@
 # else:
 #     print('Evaluated to False')# Evaluated to False
 
-
+-----------------------------------------------------------------------------------------
 # condition = ['hdhdhdhdi']
 
 # if condition:
@@ -160,7 +193,7 @@
 # else:
 #     print('Evaluated to False')
 
-
+-----------------------------------------------------------------------------------------
 # condition = [ ]
 
 # if condition:
@@ -168,14 +201,14 @@
 # else:
 #     print('Evaluated to False')# Evaluated to False     
 
-
+-----------------------------------------------------------------------------------------
 # condition = ''
 
 # if condition:
 #     print('Evaluated to True')
 # else:
 #     print('Evaluated to False')# Evaluated to False
- 
+ -----------------------------------------------------------------------------------------
 
 # Now everything else pretty much is going to be evaluated to True
 
