@@ -1,0 +1,241 @@
+ cards = [13, 11, 10, 7, 4, 3, 1, 0]
+query = [7]
+output = [3]
+
+
+result = locate_card(cards, query)
+print(result)
+
+result = output
+
+test_a ={
+    "input":{
+        "cards":[13, 11, 10, 7, 4, 3, 1, 0],
+        "query": 7
+    },
+    "output": 3
+}
+
+locate_card(test_a["input"]["cards"],test_a["input"]["query"]) == test_a["output"]
+
+locate_card(**test_a["input"]) == test_a["output"]
+
+test_a
+
+tests = [] # Or tests = [], We are storing all of the test cases of the variations in this list.
+
+#  N.1, query occurs in the middle:
+
+tests.append(test_a)
+
+tests.append({
+    "input":{
+        "cards":[13, 11, 10, 7, 4, 3, 1, 0],
+        "query": 1
+    },
+    "output": 6
+})
+
+# N.2, query is the first element:
+
+tests.append({
+    "input":{
+        "cards":[13, 11, 10, 7, 4, 3, 1, 0],
+        "query": 13
+    },
+    "output": 0
+})
+
+N.2, query is the first element but changing the numbers:
+
+tests.append({
+    "input":{
+        "cards":[4, 2, 1, -1],
+        "query": 4
+    },
+    "output": 0
+
+# N.3, query is the last element:
+
+tests.append({
+     "input":{
+        "cards":[3, -1, -9, -127],
+        "query": -127
+    },
+    "output": 3
+})
+
+# N.4, card contains just one element, query:
+
+tests.append({
+    "input":{
+        "cards":[6],
+        "query": 6
+    },
+    "output": 0
+})
+
+
+  n5 an6 are edge cases
+
+
+
+
+# N.5 card does not contain any number query, edge case
+
+tests.append({
+    "input":{
+        "cards":[9, 7, 5, 2,-9],
+        "query": 6
+    },
+    "output": -1
+})
+
+
+
+# N.6 card is empty, edge case
+
+tests.append({
+    "input":{
+        "cards":[],
+        "query": 7
+    },
+    "output": -1
+})
+
+# N.7 numbers can repeat in cards
+
+tests.append({
+    "input":{
+        "cards":[8, 8, 6, 6, 6, 6, 6, 3, 2, 2, 2, 0 ,0 ,0],
+        "query": 3
+    },
+    "output": 7
+})
+
+# N.8 query occur multiple times
+
+tests.append({
+    "input":{
+        "cards":[8, 8, 6, 6, 6, 6, 6, 3, 2, 2, 2, 0 ,0 ,0],
+        "query": 6
+    },
+    "output": 2
+})
+
+
+
+
+
+tests
+
+
+
+
+# N.3: Come up with a correct solution of the problem. State it in plain english.
+
+
+
+
+
+# New code:
+def locate_card(cards, query):
+    position = 0
+    while position < len(cards):  # Check if position is within list bounds
+        if cards[position] == query:
+            return position
+        position += 1
+    return -1  # If loop finishes without finding the query, return -1
+
+
+# Let's now test out the function with our first test case.
+
+
+test_a ={
+    "input":{
+        "cards":[13, 11, 10, 7, 4, 3, 1, 0],
+        "query": 7
+    },
+    "output": 3
+}
+
+
+
+
+> test_a
+
+
+
+result = locate_card(test_a["input"]["cards"], test_a["input"]["query"]) == test_a["output"] 
+result
+print(result)
+
+result = output
+
+
+
+result = output
+
+
+
+locate_card(**test_a["input"]) == test_a["output"]
+
+
+
+locate_card
+
+
+print(locate_card)
+
+test_a ={
+    "input":{
+        "cards":[13, 11, 10, 7, 4, 3, 1, 0],
+        "query": 7
+    },
+    "output": 3
+}
+
+
+test_a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
